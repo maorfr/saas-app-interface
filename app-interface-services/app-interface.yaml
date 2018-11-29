@@ -4,3 +4,10 @@ services:
   path: /openshift/app-interface.yaml
   url: https://github.com/app-sre/qontract-server
   hash_length: 7
+  environments:
+  - name: production
+    parameters:
+      IMAGE_GATE_TAG: fb0f89f
+  - name: staging
+    parameters:
+      IMAGE_GATE_TAG: fb0f89f
