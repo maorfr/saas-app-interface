@@ -1,0 +1,7 @@
+contexts:
+- data:
+    output_dir: app-interface-processed
+    services_dir: app-interface-services
+    templates_dir: app-interface-templates
+  name: app-interface
+current: app-interface
