@@ -7,7 +7,7 @@ services:
   environments:
   - name: production
     parameters:
-      IMAGE_GATE_TAG: 89fffba
+      IMAGE_GATE_TAG: d6e555b
   - name: staging
     parameters:
-      IMAGE_GATE_TAG: 89fffba
+      IMAGE_GATE_TAG: d6e555b
