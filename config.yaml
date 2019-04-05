@@ -4,4 +4,9 @@ contexts:
     services_dir: app-interface-services
     templates_dir: app-interface-templates
   name: app-interface
+- data:
+    output_dir: visual-qontract-processed
+    services_dir: visual-qontract-services
+    templates_dir: visual-qontract-templates
+  name: visual-qontract
 current: app-interface
