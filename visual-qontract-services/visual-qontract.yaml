@@ -1,5 +1,5 @@
 services:
-- hash: 99d954728c33dfc68dd8708f2e6b254662fec991
+- hash: 5f3ce93a6baf9a769f816729268e794e633cbf1a
   name: visual-qontract
   path: /openshift/visual-qontract.yaml
   url: https://github.com/app-sre/visual-qontract
