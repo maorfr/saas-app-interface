@@ -1,0 +1,13 @@
+services:
+- hash: ab6ca81d31b480b2b911ead9c1f7845cb27d7683
+  hash_length: 7
+  name: qontract-reconcile
+  path: /openshift/qontract-reconcile.yaml
+  url: https://github.com/app-sre/qontract-reconcile
+  environments:
+  - name: production
+    parameters:
+      DRY_RUN: ""
+  - name: staging
+    parameters:
+      DRY_RUN: "--dry-run"
