@@ -7,7 +7,7 @@ services:
   environments:
   - name: production
     parameters:
-      DRY_RUN: ""
+      DRY_RUN: "--no-dry-run"
   - name: staging
     parameters:
       DRY_RUN: "--dry-run"
