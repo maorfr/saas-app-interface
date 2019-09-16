@@ -9,4 +9,9 @@ contexts:
     services_dir: visual-qontract-services
     templates_dir: visual-qontract-templates
   name: visual-qontract
+- data:
+    output_dir: qontract-reconcile-processed
+    services_dir: qontract-reconcile-services
+    templates_dir: qontract-reconcile-templates
+  name: qontract-reconcile
 current: app-interface
