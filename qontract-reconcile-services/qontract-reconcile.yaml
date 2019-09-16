@@ -8,6 +8,8 @@ services:
   - name: production
     parameters:
       DRY_RUN: "--no-dry-run"
+      SLEEP_DURATION_SECS: 120
   - name: staging
     parameters:
       DRY_RUN: "--dry-run"
+      SLEEP_DURATION_SECS: 600
