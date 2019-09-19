@@ -1,13 +1,14 @@
 services:
-- hash: bf292ce2e351e56458703a233659f509cb31526b
-  name: app-interface
-  path: /openshift/app-interface.yaml
-  url: https://github.com/app-sre/qontract-server
-  hash_length: 7
-  environments:
+- environments:
   - name: production
     parameters:
       IMAGE_GATE_TAG: 89fffba
   - name: staging
-    parameters:
+    parameters: &id001
       IMAGE_GATE_TAG: 89fffba
+  hash: ded7f1205fd0e8692fe9e5adee09479bfbe7c3d7
+  hash_length: 7
+  name: app-interface
+  parameters: *id001
+  path: /openshift/app-interface.yaml
+  url: https://github.com/app-sre/qontract-server
