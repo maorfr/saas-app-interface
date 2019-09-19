@@ -4,11 +4,12 @@ services:
     parameters:
       IMAGE_GATE_TAG: 89fffba
   - name: staging
-    parameters: &id001
+    parameters:
       IMAGE_GATE_TAG: 89fffba
-  hash: ded7f1205fd0e8692fe9e5adee09479bfbe7c3d7
+  hash: 6b6d37df43a5705065213be158c1dd16f0b15c6d
   hash_length: 7
   name: app-interface
-  parameters: *id001
+  parameters:
+    IMAGE_GATE_TAG: 89fffba
   path: /openshift/app-interface.yaml
   url: https://github.com/app-sre/qontract-server
