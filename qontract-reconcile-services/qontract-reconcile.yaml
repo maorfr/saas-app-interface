@@ -1,16 +1,16 @@
-
 services:
-- hash: fee0f520d9b42393bd9d8e7db72f0ef46f0393df
-  hash_length: 7
-  name: qontract-reconcile
-  path: /openshift/qontract-reconcile.yaml
-  url: https://github.com/app-sre/qontract-reconcile
-  environments:
+- environments:
   - name: production
     parameters:
-      DRY_RUN: "--no-dry-run"
-      SLEEP_DURATION_SECS: "120"
+      DRY_RUN: --no-dry-run
+      SLEEP_DURATION_SECS: 120
   - name: staging
-    parameters:
-      DRY_RUN: "--dry-run"
-      SLEEP_DURATION_SECS: "600"
+    parameters: &id001
+      DRY_RUN: --dry-run
+      SLEEP_DURATION_SECS: 600
+  hash: 0c716191c75364c1d78cc66786927dda403c5223
+  hash_length: 7
+  name: qontract-reconcile
+  parameters: *id001
+  path: /openshift/qontract-reconcile.yaml
+  url: https://github.com/app-sre/qontract-reconcile
