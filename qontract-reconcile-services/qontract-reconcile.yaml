@@ -8,7 +8,7 @@ services:
     parameters:
       DRY_RUN: --dry-run
       SLEEP_DURATION_SECS: 600
-  hash: 678badf8ea7a4fa203995c098244c2b65df1807d
+  hash: e7c46a4a51764b9404cc0467b083e04aac652445
   hash_length: 7
   name: qontract-reconcile
   parameters:
