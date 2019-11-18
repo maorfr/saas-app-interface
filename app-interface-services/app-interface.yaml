@@ -6,7 +6,7 @@ services:
   - name: staging
     parameters:
       IMAGE_GATE_TAG: 89fffba
-  hash: ab8fafb934545fc9620325acc68e39a5da566622
+  hash: 47825bbc411ff56f151b8a609f1f4cacf74522e2
   hash_length: 7
   name: app-interface
   parameters:
