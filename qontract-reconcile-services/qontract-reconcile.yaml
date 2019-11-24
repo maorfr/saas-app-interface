@@ -4,11 +4,13 @@ services:
     parameters:
       DRY_RUN: --no-dry-run
       SLEEP_DURATION_SECS: 120
+      USER_ID: "1001450000"
   - name: staging
     parameters:
       DRY_RUN: --dry-run
       SLEEP_DURATION_SECS: 600
-  hash: af33bfab9d149ca5ecb26e18002c32a68671818a
+      USER_ID: "1031160000"
+  hash: c1d0f13460b1ef6be15858d19417aa3c3080930b
   hash_length: 7
   name: qontract-reconcile
   parameters:
