@@ -10,7 +10,7 @@ services:
       DRY_RUN: --dry-run
       SLEEP_DURATION_SECS: 600
       USER_ID: 1000720000
-  hash: 5eb73979d63347a640c92950d09ddea3f2c4c7d1
+  hash: 36607563d72e2533603a7a9f5b0f83f30ae57b4a
   hash_length: 7
   name: qontract-reconcile
   parameters:
