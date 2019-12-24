@@ -20,6 +20,6 @@ services:
     SLACK_CHANNEL: sd-app-sre-reconcile-stage
     SLEEP_DURATION_SECS: 600
     USER_ID: 1000720000
-    SLACK_ICON_EMOJI: :app-sre:
+    SLACK_ICON_EMOJI: ":app-sre:"
   path: /openshift/qontract-reconcile.yaml
   url: https://github.com/app-sre/qontract-reconcile
