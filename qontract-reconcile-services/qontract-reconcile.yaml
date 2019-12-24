@@ -12,14 +12,14 @@ services:
       SLACK_CHANNEL: sd-app-sre-reconcile-stage
       SLEEP_DURATION_SECS: 600
       USER_ID: 1000720000
-  hash: 52d8e9fd4471f438fb6e51240b894ad921b96961
+  hash: f88a54f0f5b7ff204a9bd0e3fb1899697b2e95b4
   hash_length: 7
   name: qontract-reconcile
   parameters:
     DRY_RUN: --dry-run
     SLACK_CHANNEL: sd-app-sre-reconcile-stage
+    SLACK_ICON_EMOJI: ':app-sre:'
     SLEEP_DURATION_SECS: 600
     USER_ID: 1000720000
-    SLACK_ICON_EMOJI: ":app-sre:"
   path: /openshift/qontract-reconcile.yaml
   url: https://github.com/app-sre/qontract-reconcile
