@@ -5,14 +5,14 @@ services:
       DRY_RUN: --no-dry-run
       SLACK_CHANNEL: sd-app-sre-reconcile
       SLEEP_DURATION_SECS: 120
-      USER_ID: 1001450000
+      USER_ID: 1000690000
   - name: staging
     parameters:
       DRY_RUN: --dry-run
       SLACK_CHANNEL: sd-app-sre-reconcile-stage
       SLEEP_DURATION_SECS: 600
       USER_ID: 1000720000
-  hash: 7a745b526a180c245e10600f09942b0eddd77925
+  hash: 5f0dc8562391e4c728e0a3f1ddaf515c8c6cb882
   hash_length: 7
   name: qontract-reconcile
   parameters:
