@@ -6,12 +6,14 @@ services:
       SLACK_CHANNEL: sd-app-sre-reconcile
       SLEEP_DURATION_SECS: 120
       USER_ID: 1000640000
+      GITHUB_API: 'http://github-mirror.github-mirror-production.svc.cluster.local'
   - name: staging
     parameters:
       DRY_RUN: --dry-run
       SLACK_CHANNEL: sd-app-sre-reconcile-stage
       SLEEP_DURATION_SECS: 600
       USER_ID: 1000720000
+      GITHUB_API: 'http://github-mirror.github-mirror-stage.svc.cluster.local'
   hash: d0fe4dedc500720cd4c06528598a36d816eb732b
   hash_length: 7
   name: qontract-reconcile
@@ -21,5 +23,6 @@ services:
     SLACK_ICON_EMOJI: ':app-sre:'
     SLEEP_DURATION_SECS: 600
     USER_ID: 1000720000
+    GITHUB_API: 'http://github-mirror.github-mirror-stage.svc.cluster.local'
   path: /openshift/qontract-reconcile.yaml
   url: https://github.com/app-sre/qontract-reconcile
