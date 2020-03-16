@@ -3,7 +3,10 @@ services:
   - name: production
     parameters:
       IMAGE_GATE_TAG: 89fffba
+      MEMORY_REQUESTS: 512Mi
       MEMORY_LIMIT: 1Gi
+      CPU_REQUESTS: 150m
+      CPU_LIMIT: 300m
   - name: staging
     parameters:
       IMAGE_GATE_TAG: 89fffba
