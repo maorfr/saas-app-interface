@@ -3,6 +3,7 @@ services:
   - name: production
     parameters:
       IMAGE_GATE_TAG: 89fffba
+      MEMORY_LIMIT: 1Gi
   - name: staging
     parameters:
       IMAGE_GATE_TAG: 89fffba
