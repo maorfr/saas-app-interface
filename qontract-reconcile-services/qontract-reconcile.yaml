@@ -14,7 +14,7 @@ services:
       SLACK_CHANNEL: sd-app-sre-reconcile-stage
       SLEEP_DURATION_SECS: 600
       USER_ID: 1000720000
-  hash: 4b9ebfd43d603d7ac11a7ebb6c0b044c10f3d7ae
+  hash: ba004224abea6d3b0834a4a353c9873118957a96
   hash_length: 7
   name: qontract-reconcile
   parameters:
