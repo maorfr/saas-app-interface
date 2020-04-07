@@ -11,9 +11,9 @@ services:
   name: app-interface
   parameters:
     IMAGE_GATE_TAG: 89fffba
-    CPU_REQUESTS: 150m	
-    CPU_LIMIT: 300m	
-    MEMORY_REQUESTS: 512Mi	
+    CPU_REQUESTS: 150m
+    CPU_LIMIT: 300m
+    MEMORY_REQUESTS: 512Mi
     MEMORY_LIMIT: 1Gi
   path: /openshift/app-interface.yaml
   url: https://github.com/app-sre/qontract-server
