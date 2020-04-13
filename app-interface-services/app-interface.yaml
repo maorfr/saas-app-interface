@@ -2,19 +2,18 @@ services:
 - environments:
   - name: production
     parameters:
-      REPLICAS: 3
+      REPLICAS: "3"
   - name: staging
     parameters:
-      REPLICAS: 1
-  hash: 24a18a63b65039206647e1f2cb2d0c9b43c8d791
+      REPLICAS: "1"
+  hash: 72d5c450dd736c5bc66ac3cd6d5e29e2769c87f0
   hash_length: 7
   name: app-interface
   parameters:
-    CPU_LIMIT: 300m
-    CPU_REQUESTS: 150m
     IMAGE_GATE_TAG: 89fffba
-    MEMORY_LIMIT: 1Gi
+    CPU_REQUESTS: 150m
+    CPU_LIMIT: 300m
     MEMORY_REQUESTS: 512Mi
-    REPLICAS: 1
+    MEMORY_LIMIT: 1Gi
   path: /openshift/app-interface.yaml
   url: https://github.com/app-sre/qontract-server
