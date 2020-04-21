@@ -3,14 +3,14 @@ services:
   - name: production
     parameters:
       DRY_RUN: --no-dry-run
-      GITHUB_API: http://github-mirror.github-mirror-production.svc.cluster.local
+      GITHUB_API: https://github-mirror.devshift.net
       SLACK_CHANNEL: sd-app-sre-reconcile
       SLEEP_DURATION_SECS: 120
       USER_ID: 1000640000
   - name: staging
     parameters:
       DRY_RUN: --dry-run
-      GITHUB_API: http://github-mirror.github-mirror-stage.svc.cluster.local
+      GITHUB_API: https://github-mirror.stage.devshift.net
       SLACK_CHANNEL: sd-app-sre-reconcile-stage
       SLEEP_DURATION_SECS: 600
       USER_ID: 1000720000
