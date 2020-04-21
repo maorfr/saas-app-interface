@@ -14,12 +14,12 @@ services:
       SLACK_CHANNEL: sd-app-sre-reconcile-stage
       SLEEP_DURATION_SECS: 600
       USER_ID: 1000720000
-  hash: 99861ceb7c3594fb40ea109dae60bc633a448eec
+  hash: 053db06febd08c84c83eea1efabcc454191e7086
   hash_length: 7
   name: qontract-reconcile
   parameters:
     DRY_RUN: --dry-run
-    GITHUB_API: http://github-mirror.github-mirror-stage.svc.cluster.local
+    GITHUB_API: https://github-mirror.stage.devshift.net
     SLACK_CHANNEL: sd-app-sre-reconcile-stage
     SLACK_ICON_EMOJI: ':app-sre:'
     SLEEP_DURATION_SECS: 600
