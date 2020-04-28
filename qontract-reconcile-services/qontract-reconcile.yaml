@@ -14,6 +14,10 @@ services:
       SLACK_CHANNEL: sd-app-sre-reconcile-stage
       SLEEP_DURATION_SECS: 600
       USER_ID: 1000720000
+      BUSYBOX_IMAGE_TAG: 1.31.1
+      BUSYBOX_IMAGE_PULL_POLICY: IfNotPresent
+      FLUENTD_IMAGE_TAG: 8e1d986
+      FLUENTD_IMAGE_PULL_POLICY: IfNotPresent
   hash: cd02558076e438380736810535addb334f5385ec
   hash_length: 7
   name: qontract-reconcile
