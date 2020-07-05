@@ -6,7 +6,7 @@ services:
   - name: staging
     parameters:
       REPLICAS: 1
-  hash: 4eed94a377dd4a7bdda06a89c817e6f02227d8a5
+  hash: e7fc635e5588738f234597a78dbe8487eb8ea0bc
   hash_length: 7
   name: app-interface
   parameters:
